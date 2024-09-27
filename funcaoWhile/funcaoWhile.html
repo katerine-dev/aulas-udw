@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do while</title>
+</head>
+<body>
+    <script>
+        function condicao(){
+            while(form1.nome.value==""){
+                alert("favor preencher o campo");
+                form1.nome.value=prompt("digite seu nome agora: ", "");
+            }
+            alert("obrigado, "+form1.nome.value);
+        }
+    </script>
+    <pre>
+        <form name="form1">
+            Nome:
+            <input type="text" name="nome" onblur="condicao(this.value)">
+        </form>
+    </pre>
+</body>
+</html>

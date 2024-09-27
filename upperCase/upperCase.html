@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando evendos no JS</title>
+    <script>
+        function myFunction()
+        {
+            var x=document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+<body>
+    insira seu nome: <input type="text" id="fname" onchange="myFunction()">
+
+    <p>Ao clicarmos fora do input o texto escrito nele ficará todo em caixa a</p>
+
+</body>
+</html>
