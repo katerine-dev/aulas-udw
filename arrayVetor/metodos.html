@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mochila= new Array();
+        mochila.push("corda");
+        mochila.push("faca");
+        mochila.push("arame");
+        mochila.push("lanterna");
+        mochila.push("pedra");
+        mochila.splice(2,1);
+        mochila.sort();
+        document.write("Qnt itens mochila: " + mochila.length + "<br>");
+        document.write(mochila[0] + "<br>");
+        document.write(mochila[1] + "<br>");
+        document.write(mochila[2] + "<br>");
+        document.write(mochila[3] + "<br>");
+    </script>
+</body>
+</html>
