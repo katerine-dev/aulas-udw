@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessa elementos</title>
+</head>
+<body>
+    <form name="curso" action="#" method="post">
+        <label>Nome</label><br>
+        <input type="text" name="teuNome" id="Digite teu nome aqui"><br><br>
+        <label>Senha</label><br>
+        <input type="password" name="tuaSenha"><br><br>
+        <input type="submit" nome="btEnviar" value="Enviar">
+    </form>
+    <script>
+        tag=document.forms["curso"];
+        document.write(tag.elements["teuNome"].value);
+    </script>
+</body>
+</html>
