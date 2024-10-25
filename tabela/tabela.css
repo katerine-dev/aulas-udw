@@ -1,0 +1,30 @@
+* {
+  font-family: system-ui;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ededed;
+}
+
+body {
+  background-image: url("../tabela/stylish-memphis-abstract-background-design.jpg");
+  backgroud-repeat: no-repeat;
+  backgroud-size: cover;
+  backgroud-attachament: fixed;
+  backgroud-position: center;
+}
+
+tbody tr {
+  heigth: 40px;
+  border-bottom: 1px solid #ededed;
+  backgroud-color: #fbfbfb;
+  text-aling: center;
+}
+
+.title {
+  backgroud-color: #009688;
+  heigth: 30 px;
+  color: #fff;
+  font-size: 26px;
+}
