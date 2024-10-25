@@ -1,0 +1,66 @@
+body {
+  background-color: burlywood;
+}
+
+#container {
+  width: 800px;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.div_cabecalho {
+  background-color: #6959cd;
+  padding-top: 30px;
+  width: 800px;
+  heigth: 100px;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: italic;
+  color: black;
+  font-weigth: bold;
+  background-image: url("../baner.jpg");
+  background-size: cover;
+}
+
+#div_menuh {
+  text-align: center;
+  background-color: black;
+  width: 800px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  padding-top: 10px;
+}
+
+#div_menuv {
+  width: 200px;
+  float: left;
+  background-color: silver;
+  height: 300px;
+}
+
+#div_conteudo {
+  width: 400px;
+  float: left;
+  background-color: white;
+  height: 300px;
+}
+
+#div_noticias {
+  width: 200px;
+  float: left;
+  background-color: silver;
+  height: 300px;
+}
+
+#div_rodape {
+  background-color: #6959cd;
+  width: 800px;
+  height: 100px;
+  clear: both;
+  /* clear: both:não permite elementos
+   flutuantes, usada para fixar o rodapé*/
+}
