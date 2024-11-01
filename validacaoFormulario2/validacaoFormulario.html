@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Desenvolvendo form para validação de dados"
+    />
+    <meta name="author" content="Katerine." />
+    <title>Validação de Dados</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form>
+      <input
+        type="text"
+        id="nome"
+        pattern="[A-Za-z\s]+$"
+        title="Digite apenas letras"
+        maxlength="10"
+        required
+        placeholder="Digite seu usuário"
+      />
+      <br /><br />
+      <input
+        type="password"
+        pattern=".{8,}"
+        title="Digite 8 ou mais caracteres"
+        required
+        placeholder="Digite sua senha"
+      /><br /><br />
+      <label for="datemax">Data entre 01/01/1980 e 01/01/2001</label>
+      <input
+        type="date"
+        name="datemax"
+        id="datemax"
+        min="1980/01/01"
+        max="2001/01/01"
+      /><br /><br />
+      <label for="quantidade">Defina um número entre 12 e 45</label>
+      <input
+        type="number"
+        name="quantidade"
+        id="quantidade"
+        min="12"
+        max="45"
+      /><br /><br />
+      <input type="submit" id="bt" value="Enviar" />
+    </form>
+  </body>
+</html>
