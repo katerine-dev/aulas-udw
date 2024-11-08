@@ -1,0 +1,21 @@
+body {
+  /*define um espaçamento interno de 50px do topo*/
+  padding: 50px 0px 0px 0px;
+  /*especifica a ordem-z de sobreposição de um elemento e de seus herdeiros*/
+  /*o valor z-index: 0 determina que todos elementos terão a mesma sobreposição*/
+  z-index: 0;
+}
+
+.row-content {
+  margin: 20px 0px;
+  padding: 10px;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: DarkSlateBlue;
+  color: floralwhite;
+}
